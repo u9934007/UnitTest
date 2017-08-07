@@ -43,14 +43,14 @@ class CalculatorTests: XCTestCase {
     
         XCTAssertEqual(
             
-            calculator!.multiplication(10,3),
+            calculator!.multiplied(10,3),
             30
             
         )
         
         XCTAssertEqual(
             
-            calculator!.multiplication(3,10),
+            calculator!.multiplied(3,10),
             30
             
         )

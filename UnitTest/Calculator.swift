@@ -14,7 +14,7 @@ struct Calculator {
         
     }
 
-    func multiplication(_ x: Int, _ y: Int) -> Int {
+    func multiplied(_ x: Int, _ y: Int) -> Int {
         
         return x * y
         
