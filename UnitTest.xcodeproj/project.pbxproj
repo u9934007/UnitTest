@@ -13,10 +13,10 @@
 		B2AB8A3C1F38023B00D45E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8A3B1F38023B00D45E47 /* Assets.xcassets */; };
 		B2AB8A3F1F38023B00D45E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8A3D1F38023B00D45E47 /* LaunchScreen.storyboard */; };
 		B2AB8A551F3804A200D45E47 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8A541F3804A200D45E47 /* CalculatorTests.swift */; };
-		B2AB8A571F3806F300D45E47 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8A561F3806F300D45E47 /* Calculator.swift */; };
 		B2AB8A5F1F380C8F00D45E47 /* JSONHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8A5E1F380C8F00D45E47 /* JSONHelperTests.swift */; };
 		B2AB8A671F380DF700D45E47 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8A661F380DF700D45E47 /* JSONHelper.swift */; };
 		B2AB8A691F38184300D45E47 /* Demo.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8A681F38184300D45E47 /* Demo.json */; };
+		B2AB8A6B1F381AED00D45E47 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8A6A1F381AED00D45E47 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +47,12 @@
 		B2AB8A4A1F38035B00D45E47 /* UnitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AB8A4E1F38035B00D45E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AB8A541F3804A200D45E47 /* CalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
-		B2AB8A561F3806F300D45E47 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Calculator.swift; path = ../Calculator.swift; sourceTree = "<group>"; };
 		B2AB8A5C1F380C8F00D45E47 /* JSONHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AB8A5E1F380C8F00D45E47 /* JSONHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelperTests.swift; sourceTree = "<group>"; };
 		B2AB8A601F380C8F00D45E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AB8A661F380DF700D45E47 /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONHelper.swift; path = ../JSONHelperTests/JSONHelper.swift; sourceTree = "<group>"; };
 		B2AB8A681F38184300D45E47 /* Demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Demo.json; sourceTree = "<group>"; };
+		B2AB8A6A1F381AED00D45E47 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		B2AB8A331F38023B00D45E47 /* UnitTest */ = {
 			isa = PBXGroup;
 			children = (
-				B2AB8A561F3806F300D45E47 /* Calculator.swift */,
+				B2AB8A6A1F381AED00D45E47 /* Calculator.swift */,
 				B2AB8A661F380DF700D45E47 /* JSONHelper.swift */,
 				B2AB8A681F38184300D45E47 /* Demo.json */,
 				B2AB8A341F38023B00D45E47 /* AppDelegate.swift */,
@@ -271,9 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2AB8A371F38023B00D45E47 /* ViewController.swift in Sources */,
+				B2AB8A6B1F381AED00D45E47 /* Calculator.swift in Sources */,
 				B2AB8A671F380DF700D45E47 /* JSONHelper.swift in Sources */,
 				B2AB8A351F38023B00D45E47 /* AppDelegate.swift in Sources */,
-				B2AB8A571F3806F300D45E47 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +521,7 @@
 				B2AB8A451F38023B00D45E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2AB8A511F38035B00D45E47 /* Build configuration list for PBXNativeTarget "UnitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +530,7 @@
 				B2AB8A531F38035B00D45E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2AB8A631F380C8F00D45E47 /* Build configuration list for PBXNativeTarget "JSONHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +539,7 @@
 				B2AB8A651F380C8F00D45E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
